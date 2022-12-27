@@ -53,3 +53,4 @@
 15. Add Cylinder object to Teleportation Ray, make as child and resize also rename it to Reticle and remove the 
 Collider
 16. Add the Reticle to Teleportation Ray > XR Interactor Line Visual > Reticle
+17. Create Script named ActivateTeleportationRay and see the source
