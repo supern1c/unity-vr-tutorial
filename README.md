@@ -1,8 +1,6 @@
 # Unity XR Project
----
 
 ## 1. Getting Started
----
 1. Project settings
 - On XR Plug-in Management, enable Open XR in Windows & Android
 - On OpenXR Settings, add Interaction Profiles
@@ -19,7 +17,6 @@
 12. Add cube into Left Hand & Right Hand to test out
 
 ## 2. Input & Hand Presence
----
 1. Download Oculus hands
 2. Import into assets
 3. Add hand prefabs
@@ -29,7 +26,6 @@
 7. Start coding, then drag animator to Hand Animator (Both)
 
 ## 3. Continuous Movement
----
 1. Select XR Origin, add Locomotion System, Continuous Move Provider, Character Controller
 2. Drag Main Camera to Continuous Move Provider forward source.
 3. Add XRI Locomotion/Move to Continuous Move Provider
