@@ -33,3 +33,23 @@
 5. Add Continuous Turn Provider & Snap Turn Provider to turn
 6. Add Character Controller Driver
 7. Add Character Controller Driver and add Continuous Move Provider to Locomotion Provider
+
+## 4. Teleportation
+
+1. On XR Origin object, click Camera Offset and add XR > Ray Interactor (Action Based)
+2. On Ray Interactor > XR Controller, click setting and choose which joystick you want to use for teleportation.
+3. On XR Origin, add Teleportation Provider
+4. On Plane, add Teleportation Area and add Mesh Collider to Collider settings
+5. On Ray Interactor > XR Controller, change action reference to XRI ***Hand Interaction/Activate
+6. Add Plane
+7. Add Empty Object name Teleportation Anchor, and then add Object
+8. Add material with Universal Render Pipeline/Unlit Shader
+9. Choose color and transparency
+10. Apply to Teleportation Anchor child object
+11. Add Teleportation Anchor to Teleportation Anchor object
+12. Add colliders (Teleportation Anchor child component or anything)
+13. Set Match Orientation to "Target Up & Forward"
+14. On Teleportation  Ray > XR Ray Interactor change Line Type to Bezier Curve and add Reference Frame
+15. Add Cylinder object to Teleportation Ray, make as child and resize also rename it to Reticle and remove the 
+Collider
+16. Add the Reticle to Teleportation Ray > XR Interactor Line Visual > Reticle
