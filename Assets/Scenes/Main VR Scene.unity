@@ -1298,10 +1298,10 @@ MonoBehaviour:
   m_Acceleration: 9.8
   m_AdditionalGroundHeight: 0.1
   m_AdditionalFlightTime: 0.5
-  m_EndPointDistance: 30
-  m_EndPointHeight: -10
-  m_ControlPointDistance: 10
-  m_ControlPointHeight: 5
+  m_EndPointDistance: 5
+  m_EndPointHeight: -7
+  m_ControlPointDistance: 3
+  m_ControlPointHeight: 0.3
   m_SampleFrequency: 20
   m_HitDetectionType: 0
   m_SphereCastRadius: 0.1
@@ -1629,6 +1629,7 @@ GameObject:
   - component: {fileID: 1069405688}
   - component: {fileID: 1069405690}
   - component: {fileID: 1069405691}
+  - component: {fileID: 1069405692}
   m_Layer: 0
   m_Name: XR Origin
   m_TagString: Untagged
@@ -1870,6 +1871,46 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_System: {fileID: 1069405687}
+--- !u!114 &1069405692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1069405681}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58b05ae87a6efbe4997bcd12c7e6fb0e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  leftTeleportation: {fileID: 878557185}
+  rightTeleportation: {fileID: 1170658352}
+  leftActivate:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Left Activate
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 0566d796-7b30-492f-97c8-8c626812d7a7
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: -5982496924579745919, guid: c348712bda248c246b8c49b3db54643f,
+      type: 3}
+  rightActivate:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Right Activate
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: d2c056b1-8eae-4840-94e7-8f7f8a590d03
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 83097790271614945, guid: c348712bda248c246b8c49b3db54643f,
+      type: 3}
 --- !u!1 &1170658352
 GameObject:
   m_ObjectHideFlags: 0
@@ -2194,10 +2235,10 @@ MonoBehaviour:
   m_Acceleration: 9.8
   m_AdditionalGroundHeight: 0.1
   m_AdditionalFlightTime: 0.5
-  m_EndPointDistance: 30
-  m_EndPointHeight: -10
-  m_ControlPointDistance: 10
-  m_ControlPointHeight: 5
+  m_EndPointDistance: 5
+  m_EndPointHeight: -7
+  m_ControlPointDistance: 3
+  m_ControlPointHeight: 0.3
   m_SampleFrequency: 20
   m_HitDetectionType: 0
   m_SphereCastRadius: 0.1
